@@ -1,0 +1,9 @@
+
+
+*node_modules
+*data/db*
+=======
+node_modules
+**/data
+/chapter_9/final_project/**/data/db/*
+/chapter_9/final_project/**/data/*

@@ -1,0 +1,33 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 364002eaa00f36868b9be9f5a9e542de3038d999
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+<<<<<<< HEAD
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.7",
+    "watson-developer-cloud": "^2.38.0"
+  },
+  "devDependencies": {},
+  "description": ""
+=======
+    "express": "^4.15.4"
+  }
+>>>>>>> 364002eaa00f36868b9be9f5a9e542de3038d999
+}

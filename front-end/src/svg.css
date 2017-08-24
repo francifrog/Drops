@@ -1,0 +1,95 @@
+
+.svg{
+  position: fixed;
+  display: inline-block;
+  text-indent: -9999px;
+  opacity: .99;
+  width: 20vw;
+  height: 20vh;
+}
+
+.seaweed1 {
+  left:20vw;
+  bottom: 2vh;
+  background: url('./img/seaweed.svg');
+  background-size: 20vw 20vh;
+}
+
+.seaweed2 {
+  left: 62vw;
+  top: 5vh;
+  background: url('./img/seaweed2.svg');
+  background-size: 20vw 20vh;
+}
+
+.seaweed3 {
+  right: 40vw;
+  bottom: 0vh;
+  background: url('./img/seaweed3.svg');
+  background-size: 20vw 20vh;
+}
+
+
+.fish1 {
+  top: 8vh;
+  left: 3vw;
+  background: url('./img/fish1.svg');
+  background-size: 20vw 20vh;
+}
+
+.fish2 {
+  left: 110vh;
+  top: 18vw;
+  background: url('./img/fish2.svg');
+  background-size: 20vw 20vh;
+}
+
+.crab {
+  right: 5vw;
+  bottom: 10vh;
+  background: url('./img/crab.svg');
+  background-size: 20vw 20vh;
+}
+
+.squid {
+  left: 5vw;
+  top: 48vh;
+  background: url('./img/squid.svg');
+  background-size: 20vw 20vh;
+}
+
+.seastar {
+  right: 5vw;
+  top: 36vh;
+  background: url('./img/seastar.svg');
+  background-size: 20vw 20vh;
+}
+
+.eggs {
+  right: 14vw;
+  top: 75vh;
+  background: url('./img/eggs.svg');
+  background-size: 20vw 20vh;
+}
+
+.fish4 {
+  right: 5vw;
+  top: 2vh;
+  background: url('./img/fish4.svg');
+  background-size: 20vw 20vh;
+}
+
+.shell {
+  right: 2vw;
+  bottom: 2vh;
+  background: url('./img/shell.svg');
+  background-size: 20vw 20vh;
+}
+
+.jellyfish {
+  left: 5vw;
+  top: 10vh;
+  background: url('./img/jellyfish.svg');
+  background-size: 20vw 20vh;
+}
+
