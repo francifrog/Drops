@@ -49,10 +49,17 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static(__dirname + './../front-end/build'));
 
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT,() => {
+	console.log("Listening on Port:",PORT)
+	console.log("Stop with Ctrl+C");
+});
+
 mongoose.connect('mongodb://localhost/data/db/');
 const db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'connection error:')); //what's the difference between this and the one we did in class??
+db.on('error', console.error.bind(console, 'connection error now:')); //what's the difference between this and the one we did in class??
 db.once('open', function() {
 	console.log("Mongoose is connected... yuhuuuuu!")
 });
@@ -121,12 +128,4 @@ app.post('/messages',(req,res) => {
 
 app.get('*', (req, res) => {
     res.sendFile('index.html',{root: __dirname + './../front-end/build'});
-});
-
-
-const PORT = process.env.PORT || 8080;
-
-app.listen(PORT,() => {
-	console.log("Listening on Port:",PORT)
-	console.log("Stop with Ctrl+C");
 });
