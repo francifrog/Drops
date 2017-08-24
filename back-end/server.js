@@ -47,6 +47,8 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(express.static(__dirname + './../front-end/build'));
+
 mongoose.connect('mongodb://localhost/data/db/');
 const db = mongoose.connection;
 
@@ -115,6 +117,10 @@ app.post('/messages',(req,res) => {
         }
         }
     );
+});
+
+app.get('*', (req, res) => {
+    res.sendFile('index.html',{root: __dirname + './../front-end/build'});
 });
 
 
