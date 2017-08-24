@@ -18,7 +18,7 @@ class Post extends Component {
                 </a>
                 <form onSubmit={(e) => { this.props.newMsg(e, this.refs.author.value, this.refs.message.value, this.refs.sfx); this.refs.author.value = ''; this.refs.message.value = ''; }}>
                     <input ref='author' type='text' placeholder='enter your name'></input>
-                    <textarea className='msg' ref='message' type='text' placeholder='enter your message' maxlength="50"></textarea>
+                    <textarea className='msg' ref='message' type='text' placeholder='enter your message' maxLength="90"></textarea>
                     <p>Go back to the Ocean to find your drop!</p>
                     <button className= 'newDropBtn' type='submit'>Drop!</button>
                     <audio ref='sfx' src='./water-drop.mp3' />
