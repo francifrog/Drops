@@ -240,7 +240,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .bigBubble{
-  border-radius: 2% 50% 50% 50%;
+  border-radius: 100%;
   position: absolute;
   top:2px;
   left:20px;
@@ -248,7 +248,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   z-index: 100;
   background-color: #9BD0DD;
   padding-top: 0.1em;
-  transform: rotate(45deg)
+  /*transform: rotate(45deg)*/
 }
 
 .anim > div > div {
@@ -272,14 +272,15 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .title{
-  -webkit-margin-before: 2em;
+  -webkit-margin-before: 1em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   text-align: center;
-  margin-left: -2vw;
+  left:30%;
   position: absolute;
   top:2vh;
+  transform: rotate(0deg);
 }
 
 .messag{
@@ -290,6 +291,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   width: 9vw;
   height: 10vh;
   text-align: center;
+  transform: rotate(0deg)
 }
 /*INSTRUCTIONS*/
 ul{
