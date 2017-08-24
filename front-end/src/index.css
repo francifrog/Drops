@@ -284,11 +284,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .messag{
-  -webkit-margin-before: 2em;
-  -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  width: 9vw;
+  width: 10vw;
   height: 10vh;
   text-align: center;
   transform: rotate(0deg)
